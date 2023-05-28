@@ -18,10 +18,10 @@ const populations = [
 // This should fix the type error on Line 23.
 //
 // Hint: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/Reduce
-
+const initialValue = 0;
 const sumOfPopulations = populations.reduce((total, population) => {
     return total + population;
-}, false);
+}, initialValue);
 
 console.log(sumOfPopulations);
 
